@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.box{
+    width: 400px;
+    height: 90px;
+    background-color:lawngreen;
+    text-align: center;
+    padding-top:48px;
+    font-size: 28px ;
+    transition: all 2s linear;
+}
+
+.box:hover{
+    width:0%;
+    background-color: navy;
+    color: aliceblue;
+}
+
+@media (min-width: 1024px) {
+     .box { 
+        width: 40%;
+     } 
+     .box:hover { 
+        width: 100%; 
+    } }
